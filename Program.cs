@@ -1,3 +1,6 @@
+
+
+
 using AuthApp.Data;
 using AuthApp.Repositories;
 using AuthApp.Services;
@@ -5,19 +8,27 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
+AppContext.SetSwitch("Switch.Microsoft.Data.SqlClient.DisableConnectionPooling", false);
+AppContext.SetSwitch("Switch.Microsoft.Data.SqlClient.DisableLogging", true);
+AppContext.SetSwitch("Switch.Microsoft.Data.SqlClient.DisablePerformanceCounters", true);
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowFrontend",policy =>
+    options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3002") // React dev server URL
-              .AllowAnyHeader()
-              .AllowAnyMethod()
-              .AllowCredentials(); // Optional: only needed if you're using cookies/auth
+        policy.WithOrigins(
+            "http://localhost:3000", // for local dev
+            "https://piyushregislogin.vercel.app" // for deployed frontend
+        )
+        .AllowAnyHeader()
+        .AllowAnyMethod();
     });
 });
+
 
 builder.Services.AddControllers();
 builder.Services.AddControllersWithViews();

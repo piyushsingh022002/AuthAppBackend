@@ -1,0 +1,8 @@
+{
+    "runtimeOptions": {
+      "configProperties": {
+        "Switch.Microsoft.Data.SqlClient.DisablePerformanceCounters": true
+      }
+    }
+  }
+  
