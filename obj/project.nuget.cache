@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LR3a0fkAlbE=",
+  "dgSpecHash": "PhR+olmCd6s=",
   "success": true,
-  "projectFilePath": "/Users/piyush/AuthApp/RegLogBackend.csproj",
+  "projectFilePath": "/Users/piyush/AuthApp/AuthApp.csproj",
   "expectedPackageFiles": [
     "/Users/piyush/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/piyush/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

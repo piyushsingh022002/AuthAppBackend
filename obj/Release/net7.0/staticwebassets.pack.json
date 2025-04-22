@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "/Users/piyush/AuthApp/obj/Release/net7.0/scopedcss/projectbundle/RegLogBackend.bundle.scp.css",
-      "PackagePath": "staticwebassets/RegLogBackend.foc4lmiitq.bundle.scp.css"
+      "Id": "/Users/piyush/AuthApp/obj/Release/net7.0/scopedcss/projectbundle/AuthApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/AuthApp.b45o3m8llm.bundle.scp.css"
     },
     {
       "Id": "/Users/piyush/AuthApp/wwwroot/css/site.css",
@@ -257,24 +257,24 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Id": "obj/Release/net7.0/staticwebassets/msbuild.RegLogBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.AuthApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj/Release/net7.0/staticwebassets/msbuild.RegLogBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.AuthApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.RegLogBackend.props",
-      "PackagePath": "build\\RegLogBackend.props"
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.build.AuthApp.props",
+      "PackagePath": "build\\AuthApp.props"
     },
     {
-      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.RegLogBackend.props",
-      "PackagePath": "buildMultiTargeting\\RegLogBackend.props"
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildMultiTargeting.AuthApp.props",
+      "PackagePath": "buildMultiTargeting\\AuthApp.props"
     },
     {
-      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.RegLogBackend.props",
-      "PackagePath": "buildTransitive\\RegLogBackend.props"
+      "Id": "obj/Release/net7.0/staticwebassets/msbuild.buildTransitive.AuthApp.props",
+      "PackagePath": "buildTransitive\\AuthApp.props"
     }
   ],
   "ElementsToRemove": []

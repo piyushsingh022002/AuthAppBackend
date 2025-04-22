@@ -2211,9 +2211,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/piyush/AuthApp/RegLogBackend.csproj",
-      "projectName": "RegLogBackend",
-      "projectPath": "/Users/piyush/AuthApp/RegLogBackend.csproj",
+      "projectUniqueName": "/Users/piyush/AuthApp/AuthApp.csproj",
+      "projectName": "AuthApp",
+      "projectPath": "/Users/piyush/AuthApp/AuthApp.csproj",
       "packagesPath": "/Users/piyush/.nuget/packages/",
       "outputPath": "/Users/piyush/AuthApp/obj/",
       "projectStyle": "PackageReference",
